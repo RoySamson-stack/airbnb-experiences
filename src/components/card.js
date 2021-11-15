@@ -2,6 +2,8 @@ import React from "react";
 import Card from "./cards"
 import katie from "../img/image12.png"
 import star from "../img/star.png"
+import bike from "../img/mountain-bike.png"
+import wedding from "../img/wedding-photography.png"
 
 export default function Cards(){
   return(
@@ -14,14 +16,14 @@ export default function Cards(){
       price="From $500 per night"
       />
        <Card 
-      image={katie}
+      image={wedding}
       icon={star}
       rating="5.0"
       title="Katie"
       price="From $500 per night"
       />
        <Card 
-      image={katie}
+      image={bike}
       icon={star}
       rating="5.0"
       title="Katie"
