@@ -1,6 +1,5 @@
 import React from "react"
-import NavBar from "./NavBar"
-
+import NavBar from "./components/navbar"
 function App() {
   return (
     <div className="App">

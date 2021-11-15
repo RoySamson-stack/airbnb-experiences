@@ -1,12 +1,12 @@
 import React from 'react';
+import Airbnb from "../img/airbnb-logo.png"
+import "./navbar.css"
 
 function NavBar (){
     return (
-      <div>
-        <nav className="">
-          
+        <nav className="navbar">
+          <img src={Airbnb} alt="" className="navbar-image"/>
         </nav>
-      </div>
     );
   
 }
