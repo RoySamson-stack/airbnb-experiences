@@ -51,6 +51,7 @@ align-items: center;
 }.card-star{
   height: 14px;
   margin-right: 7px;
+  display: block;
 }.card-section{
   display: flex;
   flex-direction: row;

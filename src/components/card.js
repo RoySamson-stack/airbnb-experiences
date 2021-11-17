@@ -12,6 +12,8 @@ export default function Cards(){
       image={katie}
       icon={star}
       rating="5.0"
+      reviewCount="10"
+      country="Kenya"
       title="Katie"
       price="From $500 per night"
       />
@@ -19,6 +21,8 @@ export default function Cards(){
       image={wedding}
       icon={star}
       rating="5.0"
+      reviewCount="10"
+      country="Kenya"
       title="Katie"
       price="From $500 per night"
       />
@@ -26,8 +30,10 @@ export default function Cards(){
       image={bike}
       icon={star}
       rating="5.0"
+      reviewCount="10"
+      country="Kenya"
       title="Katie"
-      price="From $500 per night"
+      price="From ${500} per night"
       />
    </div>
   )
