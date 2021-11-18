@@ -37,6 +37,7 @@ box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }.hero-text{
   margin-top: 0;
 }.card{
+  position: relative;
   margin: 20px;
 width: 200px;
 font-size: 12px;
@@ -64,4 +65,12 @@ align-items: center;
   justify-content: space-between;
 }.card-price{
   margin-top: auto;
+}.card-badge{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
