@@ -5,7 +5,6 @@ import Data from "./data"
 // import star from "../img/star.png"
 // import bike from "../img/mountain-bike.png"
 // import wedding from "../img/wedding-photography.png"
-
 export default function Cards(){
 
 
@@ -13,7 +12,7 @@ export default function Cards(){
     return(
       <Card 
       image={item.coverImg}
-      // icon={}
+      icon={item.stats.icon}
       rating={item.stats.rating}
       reviewCount={item.stats.reviewCount}
       country={item.location}

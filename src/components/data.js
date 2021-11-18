@@ -1,3 +1,4 @@
+
 export default[
   {
     id: 1,
@@ -6,6 +7,7 @@ export default[
     price: 136,
     coverImg: "image12.png",
     stats: {
+      icon: "star.png",
         rating: 5.0,
         reviewCount: 6
     },
@@ -17,8 +19,9 @@ export default[
     title: "Learn Wedding Photography",
     description: "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
     price: 125,
-    coverImg: "wedding-photography.png",
+    coverImg: "../img/wedding-photography.png",
     stats: {
+      icon: "star.png",
         rating: 5.0,
         reviewCount: 30
     },
@@ -32,6 +35,7 @@ export default[
     price: 50,
     coverImg: "mountain-bike.png",
     stats: {
+      icon: "star.png",
         rating: 4.8,
         reviewCount: 2
     },
